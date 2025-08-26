@@ -133,10 +133,10 @@ services:
         container_name: newt
         restart: unless-stopped
         command:
-            - --id 31frd0uzbjvp721
-            - --secret h51mmlknrvrwv8s4r1i210azhumt6isgbpyavxodibx1k2d6
-            - --endpoint https://example.com
-            - --health-file /tmp/healthy
+            - --id=31frd0uzbjvp721
+            - --secret=h51mmlknrvrwv8s4r1i210azhumt6isgbpyavxodibx1k2d6
+            - --endpoint=https://example.com
+            - --health-file=/tmp/healthy
 ```
 
 ## Accept Client Connections
